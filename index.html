@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #5A67D8;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #EDF2F7;
+      padding: 1rem;
+    }
+    nav a {
+      color: #5A67D8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .projects img {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #5A67D8;
+      color: white;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my personal site</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Hello and thanks for visiting my portfolio. Scroll down to know more about me and my work!</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a passionate filmmaker and storyteller. I love creating visually rich, emotionally driven narratives that connect with people. This site showcases my creative journey.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <img src="https://via.placeholder.com/400x250.png?text=Project+1" alt="Project 1">
+    <img src="https://via.placeholder.com/400x250.png?text=Project+2" alt="Project 2">
+    <img src="https://via.placeholder.com/400x250.png?text=Project+3" alt="Project 3">
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
